@@ -422,7 +422,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('🔻 How To Use Me 🔻', callback_data='source')
         ], [
-            InlineKeyboardButton('Developer 😎', url='https://t.me/Oxyver_Owner),
+            InlineKeyboardButton('Developer 😎', url='https://t.me/Oxyver'),
             InlineKeyboardButton('About 😊', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
