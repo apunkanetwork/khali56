@@ -20,10 +20,11 @@ Here Is The Help For MY Commands."""
     ABOUT_TXT = """<b><i>😎 Owner : <a href=https://t.me/Oxyver_Owner><b>꧁𒆜🅻🆄🅲🅺🆈𒆜꧂</b></a>\n
 📡 Host : ʜᴇʀᴏᴋᴜ\n
 🌟 Version : ᴠ 4.0 [ ʙᴇᴛᴀ ]\n</b></i>"""
-    SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
-» First Share Me Your Heroku Api
-» I will Create One Bot For You<b>
-» Contact Me @JonSnow11<b>"""
+    SOURCE_TXT = """<b>🔻 How To Use Me 🔻</b>
+» First Add Me "`As Admin`" To Your Group
+» Then Send Your " Movie Name With ReleasedYear " In The Group As Message<b>
+» Contact Me @Oxyver_Owner<b>
+» Tutorial Video:- """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
