@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('⚡ 𝖴pdates ⚡', url=YOUR_CHANNEL)
             ],
             [
-                InlineKeyboardButton('⚡ Developer ⚡', url=f"https://t.me/JonSnow11"),
+                InlineKeyboardButton('⚡ Developer ⚡', url=f"https://t.me/Oxyver_Owner"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,9 +44,9 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔻 Click Here For Create One Like This 🔻', callback_data='source')
+            InlineKeyboardButton('🔻 How To Use Me 🔻', callback_data='source')
             ],[
-            InlineKeyboardButton('Developer 😎', url='https://t.me/JonSnow11'),
+            InlineKeyboardButton('Developer 😎', url='https://t.me/Oxyver_Owner'),
             InlineKeyboardButton('About 😁', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -89,9 +89,9 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔻 Click Here For Create One Like This 🔻', callback_data='source')
+            InlineKeyboardButton('🔻 How To Use Me 🔻', callback_data='source')
             ],[
-            InlineKeyboardButton('Devloper 😎', url='https://t.me/JonSnow11'),
+            InlineKeyboardButton('Devloper 😎', url='https://t.me/Oxyver_Owner'),
             InlineKeyboardButton('About 😁', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
