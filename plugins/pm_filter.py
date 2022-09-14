@@ -356,7 +356,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                        file_caption='' if f_caption is None else f_caption)
             except Exception as e:
                 logger.exception(e)
-            f_caption = f"`{file.file_name}` <b>\nHey Everyone ...!!\nCome and Join Our Request Group\n@Enox_Movie_Request_Group</b>"
+            f_caption = f_caption 
         if f_caption is None:
             f_caption = f"`{files.file_name}`"
 
@@ -404,9 +404,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                        file_caption='' if f_caption is None else f_caption)
             except Exception as e:
                 logger.exception(e)
-                f_caption = f"`{file.file_name}` <b>\nHey Everyone ...!!\nCome and Join Our Request Group\n@Enox_Movie_Request_Group</b>"
+                f_caption = f_caption 
         if f_caption is None:
-            f_caption = f"{title}"
+            f_caption = f"`{title}`"
         await query.answer()
         await client.send_cached_media(
             chat_id=query.from_user.id,
