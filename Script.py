@@ -1,4 +1,4 @@
-#### This Code Was Devloped By Rolex Community ####
+#### This Code Was Devloped By Oxyver Community ####
 
 import re
 from os import environ
@@ -14,10 +14,10 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://www.google.com/')
-    START_TXT = environ.get("START_TXT", " Hello {} 👋🏻 Im Rolex Bot I can share Movies and Series 😁.")
+    START_TXT = environ.get("START_TXT", " Hello {} 👋🏻 Im Movie Request Bot I can share Movies and Series 😁.")
     HELP_TXT = """Hey {}
 Here Is The Help For MY Commands."""
-    ABOUT_TXT = """<b><i>😎 Owner : <a href=https://t.me/JonSnow11><b>Jon Snow</b></a>\n
+    ABOUT_TXT = """<b><i>😎 Owner : <a href=https://t.me/Oxyver_Owner><b>꧁𒆜🅻🆄🅲🅺🆈𒆜꧂</b></a>\n
 📡 Host : ʜᴇʀᴏᴋᴜ\n
 🌟 Version : ᴠ 4.0 [ ʙᴇᴛᴀ ]\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
