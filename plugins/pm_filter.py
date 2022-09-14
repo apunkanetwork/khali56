@@ -356,9 +356,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                        file_caption='' if f_caption is None else f_caption)
             except Exception as e:
                 logger.exception(e)
-            f_caption = f_caption
+            f_caption = f"`{file.file_name}` <b>\nHey Everyone ...!!\nCome and Join Our Request Group\n@Enox_Movie_Request_Group</b>"
         if f_caption is None:
-            f_caption = f"{files.file_name}"
+            f_caption = f"`{files.file_name}`"
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -404,7 +404,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                        file_caption='' if f_caption is None else f_caption)
             except Exception as e:
                 logger.exception(e)
-                f_caption = f_caption
+                f_caption = f"`{file.file_name}` <b>\nHey Everyone ...!!\nCome and Join Our Request Group\n@Enox_Movie_Request_Group</b>"
         if f_caption is None:
             f_caption = f"{title}"
         await query.answer()
@@ -420,9 +420,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔻 Click Here To Create One Like This 🔻', callback_data='source')
+            InlineKeyboardButton('🔻 How To Use Me 🔻', callback_data='source')
         ], [
-            InlineKeyboardButton('Developer 😎', url='https://t.me/JonSnow11'),
+            InlineKeyboardButton('Developer 😎', url='https://t.me/Oxyver_Owner),
             InlineKeyboardButton('About 😊', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
