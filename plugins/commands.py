@@ -131,9 +131,9 @@ async def start(client, message):
                     f_caption=BATCH_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
                 except Exception as e:
                     logger.exception(e)
-                    f_caption=f_caption
+                    f_caption = f"<b> Hey Everyone ...!!\n Come and Join Our Request Group\n @Enox_Movie_Request_Group </b><br>\n📁 Name ➜`{files.file_name}`"
             if f_caption is None:
-                f_caption = f"{title}"
+                f_caption = f"`{title}`"
             try:
                 await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -235,9 +235,9 @@ async def start(client, message):
             f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
         except Exception as e:
             logger.exception(e)
-            f_caption=f_caption
+            f_caption = f"<b> Hey Everyone ...!!\n Come and Join Our Request Group\n @Enox_Movie_Request_Group </b><br>\n📁 Name ➜`{files.file_name}`"
     if f_caption is None:
-        f_caption = f"{files.file_name}"
+        f_caption = f"`{files.file_name}`"
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
