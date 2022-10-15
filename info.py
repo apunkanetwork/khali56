@@ -18,7 +18,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/4af6b9db8b1eb016bddbb.jpg https://telegra.ph/file/cba14de59a7ac235fc57d.jpg https://telegra.ph/file/014c7110f3e78c52633d8.jpg https://telegra.ph/file/c0237e59e0eda199388b7.jpg https://telegra.ph/file/247ef9294a71a46327a19.jpg https://telegra.ph/file/302dfc4696173b3c5d668.jpg https://telegra.ph/file/5f553dfd03620cba5bad9.jpg https://telegra.ph/file/6a103e869cd76e4b94101.jpg https://telegra.ph/file/5293f8a66acfcb3e49176.jpg https://telegra.ph/file/cf80a8d93d64d48abf809.jpg https://telegra.ph/file/20c2be88a7bd44b5dae89.jpg')).split()
 
 # Admins, Channels & Users
@@ -40,7 +40,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TamilGram_Official')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "True")), True)
+IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "`{file.file_name}` <b>\nHey Everyone ...!!\nCome and Join Our Request Group\n@Enox_Movie_Request_Group</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
